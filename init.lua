@@ -39,6 +39,6 @@ if boost_cart.MESECONS then
 end
 
 if boost_cart.MTG_CARTS then
-	minetest.log("action", "[boost_cart] Overwriting definitions of similar carts mod")
+	--minetest.log("action", "[boost_cart] Overwriting definitions of similar carts mod")
 end
 dofile(boost_cart.modpath.."/cart_entity.lua")
